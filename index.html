@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8" />
+<title>Mi pagina de prueba</title>
+<link href="styles11/styles12.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>INDICE DE MASA CORPORAL</h1>
+<h2>(IMC)</h2>
+<img src="imagenes/IMC10.jpg." alt="Mi imagen de prueba" />
+<h3>¿Que Es?</h3>
+<p>El índice de masa corporal (IMC) es un método utilizado para estimar la cantidad de grasa corporal que tiene una persona, y determinar por tanto si el peso está dentro del rango normal, o por el contrario, se tiene sobrepeso o delgadez. Para ello, se pone en relación la estatura y el peso actual del individuo. Esta fórmula matemática fue ideada por el estadístico belga Adolphe Quetelet, por lo que también se conoce como índice de Quetelet o Body Mass Index (BMI).</p>
+<p>Se tienen los siguien rangos al medir el indice de masa corporal</p>
+<ul>
+<li>OBESIDAD</li>
+<li>SOBREPESO</li>
+<li>PESO NORMAL</li>
+<li>BAJO PESO</li>
+</ul>
+<img src="imagenes/imagen22.jpg." alt="Mi imagen de prueba2" />
+<h4>¿Como Se Calcula?</h4>
+<p>El IMC es una fórmula que se calcula dividiendo el peso, expresado siempre en Kg, entre la altura, siempre en metros al cuadrado. Una cosa importante que destaca la nutricionista es que no se pueden aplicar los mismos valores en niños y adolescentes que en adultos. “Para calcular el IMC en niños se utilizan los percentiles. Estos son una media en los que se establece el peso del niño y se le relaciona con sus iguales de edad y sexo, dentro de la misma área; y si está en la media, tiene un peso adecuado; si está por encima, habría un percentil alto, por lo que  tendrían obesidad, y si está por debajo, se calificaría como un bajo peso”, indica Escalada.Para la mayoría de los adultos, un IMC ideal está en el rango de 18,5 a 24,9.</p>
+<img src="imagenes/imcc.jpg." alt="Mi imagen de prueba2" />
+<p>Es importante sabe nuestro indice de masa corporal para poder estar seguros de nuestro estado de salud y asi poder corregir cietos habitos alimenticios y brutinas para que nuestro cuerpo este en optimo rendimiento.</p>
+<img src="imagenes/descarga1.jpg." alt="Mi imagen de prueba2" />
+<p>Si deseas aprender mas sobre el indice de masa corporal te invito a que sigas el enlace <a href="https://www.youtube.com/watch?v=4q2UiE5ilP4">imc</a> oservaras todo desde como se calcula, metodos para estar dentro de valores saludables y cuando no con fiarse de dicho valor obtenido</p>
+<h5>¿Desea Saber tu Indice De Masa Corporal?</h5>
+<p>Acontinuacion podras saber tu indice de masa corporal
+    <!--<script src="script.js"></script>-->
+		<form action="index.html" class="formulario" method="post">
+			<label for="altura">Dime tu altura en Metros: </label>
+			<input type="number" id="altura" name="altura">
+			<label for="peso">Dime tu peso en kilogramos: </label>
+			<input type="number" id='peso' name="peso">
+			<!--<input type="button" name="enviar" value="Enviar" onclick="enviarAlerta();">-->
+			<span class='calcu'></span>
+			<span class='calcu'></span>
+			<span class='calcu'></span>
+			<span class='calcu'></span>
+			<br><b><input  class ="calcular" type="button" value="Calcular" onclick="calcularProducto()"></b>
+		</form>
+		<p class="resultado">
+			<br>
+			Tu Indice de Masa Corporal es: <b><span id="imc"></span></b><br>
+			<br>Clasificacion de tu IMC: <b><span id="info"></span></b>
+			<br clear="all">
+		</p>
+<script src="scripts11/main.js11"></script>
+</body>
+</html>
